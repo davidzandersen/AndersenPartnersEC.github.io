@@ -77,7 +77,7 @@ a:focus {
 /**********************************/
 .top-bar {
     position: relative;
-    height: 90px;
+    height: 140px;
     background: #fdbe33;
 }
 
@@ -90,7 +90,7 @@ a:focus {
 .top-bar .logo h1 {
     margin: 0;
     color: #030f27;
-    font-size: 60px;
+    font-size: 40px;
     line-height: 60px;
     font-weight: 700;
 }
@@ -1146,6 +1146,7 @@ a:focus {
 
 .testimonial .container {
     max-width: 760px;
+    /* max-width: 1013px; */
 }
 
 .about-page .testimonial {
@@ -2064,7 +2065,7 @@ a:focus {
 
 .footer .footer-contact,
 .footer .footer-link,
-.footer .newsletter {
+.footer .contactus {
     position: relative;
     margin-bottom: 45px;
 }
@@ -2142,19 +2143,19 @@ a:focus {
     color: #030f27;
 }
 
-.footer .newsletter .form {
+.footer .contactus .form {
     position: relative;
     max-width: 400px;
     margin: 0 auto;
 }
 
-.footer .newsletter input {
+.footer .contactus input {
     height: 50px;
     border: 2px solid #121518;
     border-radius: 0;
 }
 
-.footer .newsletter .btn {
+.footer .contactus .btn {
     position: absolute;
     top: 5px;
     right: 5px;
@@ -2170,10 +2171,11 @@ a:focus {
     transition: .3s;
 }
 
-.footer .newsletter .btn:hover {
+.footer .contactus .btn:hover {
     color: #121518;
     background: #fdbe33;
 }
+
 
 .footer .footer-menu .f-menu {
     position: relative;
