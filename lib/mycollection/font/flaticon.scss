@@ -1,0 +1,61 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?7c178c84987ebde246faeabd0d5c4042") format("truetype"),
+url("./flaticon.woff?7c178c84987ebde246faeabd0d5c4042") format("woff"),
+url("./flaticon.woff2?7c178c84987ebde246faeabd0d5c4042") format("woff2"),
+url("./flaticon.eot?7c178c84987ebde246faeabd0d5c4042#iefix") format("embedded-opentype"),
+url("./flaticon.svg?7c178c84987ebde246faeabd0d5c4042#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "help": "\f101",
+    "operator": "\f102",
+    "university": "\f103",
+    "graduation-hat": "\f104",
+    "group": "\f105",
+    "exam": "\f106",
+    "presentation": "\f107",
+    "document": "\f108",
+    "employee": "\f109",
+);
+
+.flaticon-help:before {
+    content: map-get($flaticon-map, "help");
+}
+.flaticon-operator:before {
+    content: map-get($flaticon-map, "operator");
+}
+.flaticon-university:before {
+    content: map-get($flaticon-map, "university");
+}
+.flaticon-graduation-hat:before {
+    content: map-get($flaticon-map, "graduation-hat");
+}
+.flaticon-group:before {
+    content: map-get($flaticon-map, "group");
+}
+.flaticon-exam:before {
+    content: map-get($flaticon-map, "exam");
+}
+.flaticon-presentation:before {
+    content: map-get($flaticon-map, "presentation");
+}
+.flaticon-document:before {
+    content: map-get($flaticon-map, "document");
+}
+.flaticon-employee:before {
+    content: map-get($flaticon-map, "employee");
+}

@@ -617,7 +617,7 @@ a:focus {
 
 .about .about-text a.btn {
     position: relative;
-    margin-top: 15px;
+    margin-top: 5px;
     padding: 15px 35px;
     font-size: 16px;
     font-weight: 500;
@@ -746,6 +746,7 @@ a:focus {
 .fact .fact-text h2 {
     font-size: 35px;
     font-weight: 700;
+    display: inline;
 }
 
 .fact .fact-text p {
@@ -2318,4 +2319,23 @@ a:focus {
         margin: 5px 0;
         text-align: center;
     }
+}
+
+.feature-img {
+    margin-bottom: 25px;
+    overflow: hidden;
+}
+
+.feature-img .col-6 {
+    padding: 0;
+    overflow: hidden;
+}
+
+.feature-img img {
+    width: 100%;
+    transition: .3s;
+}
+
+.feature-img img:hover {
+    transform: scale(1.1);
 }
