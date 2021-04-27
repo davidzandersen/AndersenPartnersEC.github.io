@@ -832,12 +832,13 @@ a:focus {
 
 .service .service-text h3 {
     margin: 0;
-    padding: 0 15px 0 25px;
-    width: calc(100% - 60px);
+    padding: 0 25px 0 25px;
+    /* width: calc(100% - 60px); */
+    width: calc(100%);
     font-size: 20px;
     font-weight: 700;
     color: #fdbe33;
-    text-align: left;
+    text-align: center;
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
