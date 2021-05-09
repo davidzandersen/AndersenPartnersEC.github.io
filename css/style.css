@@ -3,13 +3,8 @@
 /*******************************/
 body {
     color: #666666;
-<<<<<<< HEAD
-    background: #dddddd;
-    font-family:  'Microsoft YaHei',arial,tahoma,\5b8b\4f53,sans-serif;
-=======
     background: #ffffff;
-    font-family: 'Poppins', sans-serif;
->>>>>>> service
+    font-family:  'Microsoft YaHei',arial,tahoma,\5b8b\4f53,sans-serif;
     font-weight: 400;
 }
 
