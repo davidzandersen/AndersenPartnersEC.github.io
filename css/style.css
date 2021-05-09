@@ -2489,29 +2489,29 @@ h6,
 /* --------------- Subscriber Section -------------- */
 /* ================================================= */
 
-#subscriber {
+.subscriber {
     position: relative;
     padding: 30px 30px;
     background: #030f27;
     text-align: center;
 }
 
-#subscriber h3 {
+.subscriber h3 {
     color: #ffffff;
     font-size: 30px;
     font-weight: 800;
 }
 
-#subscriber .form-inline {
+.subscriber .form-inline {
     width: 400px;
     margin: 0 auto;
 }
 
-#subscriber .form-group {
+.subscriber .form-group {
     margin-bottom: 0;
 }
 
-#subscriber input {
+.subscriber input {
     width: 250px;
     font-size: 16px;
     padding: 10px 30px;
@@ -2521,7 +2521,7 @@ h6,
     box-shadow: none;
 }
 
-#subscriber button[type="submit"] {
+.subscriber button[type="submit"] {
     width: 200px;
     border: none;
     box-shadow: none;
@@ -2535,7 +2535,7 @@ h6,
     border-radius: 30px;
 }
 
-#subscriber button[type="submit"]:hover {
+.subscriber button[type="submit"]:hover {
     color: #ffffff;
     background: #540000;
 }
